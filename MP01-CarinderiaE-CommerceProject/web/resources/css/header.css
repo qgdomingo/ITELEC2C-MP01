@@ -1,49 +1,53 @@
 @CHARSET "ISO-8859-1";
 
-	.header-bg {
+/* BODY */
+	body {
+		background-color: #FFFEEF;
+	}
+
+/* HEADER */
+	.headerDesign {
+		border-top: 5px solid #ca9b52; 
 		background-color: #ffee58;
 		width: 100%;
+		padding: 15px;
+	}
+	
+	.headerDesign ul {
+		list-style-type: none;
+	    margin: 0;
+	    padding: 0;	
+	}
+	
+	.headerDesign li {
+		display: inline;
+	}
+	
+	.header-flagship {
+		color: black;
+		padding: 15px;
+		text-decoration: none;
+	}
+	
+	.header-flagship:hover {
+		color: black;
 	}
 	
 	.header-btn {
 		color: black;
 		padding: 15px;
 		text-decoration: none;
+		letter-spacing: 2px;
+		font-family: 'Times New Roman', serif;
 	}
 	
 	.header-btn:hover {
-		color: white; 
-		background-color: #4f5b62;
+		color: black;
+		background-color: #ffffb0;
 		transition: 0.5s;
 	}
 	
 
-	// Extra small devices (portrait phones, less than 576px)
-	@media (max-width: 575px) {
-		.navbar-nav > li{
-		  margin-bottom:30px;
-		}
-	}
-	
-	// Small devices (landscape phones, 576px and up)
-	@media (min-width: 576px) and (max-width: 767px) {
-		.navbar-nav > li{
-		  margin-bottom:30px;
-		}
-	}
-	
-	// Medium devices (tablets, 768px and up)
-	@media (min-width: 768px) and (max-width: 991px) {
-		
-	}
-	
-	// Large devices (desktops, 992px and up)
-	@media (min-width: 992px) and (max-width: 1199px) {
-	
-	}
-	
-	// Extra large devices (large desktops, 1200px and up)
-	@media (min-width: 1200px) {
-	
-	}
+
+
 	
